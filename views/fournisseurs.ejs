@@ -1,0 +1,12 @@
+<h1><%= titre %></h1>
+<ul>
+    <% fournisseurs.forEach(function(fournisseur){ %>
+        <li> <%= fournisseur.nom + ", " + fournisseur.adresse %></li>
+    <% }); %>
+</ul>
+
+<hr/>
+<h1>Nombres de 0 à 9</h1>
+<% for (var i = 0; i < 10; i++) { %>
+        <%= i %> <br/>
+<% } %>

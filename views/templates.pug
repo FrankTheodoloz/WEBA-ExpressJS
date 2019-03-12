@@ -1,0 +1,10 @@
+h1 #{settings.infos.titre}
+ul
+li #{points[2].no} #{points[2].detail}
+li #{points[1].no + " " + points[1].detail}
+li= points[0].no + " " + points[0].detail
+hr
+// each point in points
+    li= point.no + " " + point.detail
+
+a(href="/") #{settings.infos.bottom}
